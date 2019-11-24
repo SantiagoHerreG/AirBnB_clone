@@ -1,0 +1,9 @@
+header {
+	background:#FF0000;
+	height: 70px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	right: 0;
+	left: 0;
+}
