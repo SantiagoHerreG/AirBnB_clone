@@ -1,5 +1,4 @@
 header {
-	background: white;
 	height: 70px;
 	position: fixed;
 	top: 0;
@@ -10,9 +9,6 @@ header {
 	border-width: 0;
 	border-bottom-width: 1px;
 	border-bottom-color: #CCCCCC;
-}
-img {
-	float: left;
-	margin-left: 20px;
-	vertical-align: middle;
+	background: url("../images/logo.png") no-repeat;
+	background-position: 20px;
 }
