@@ -37,13 +37,13 @@ section.filters .locations {
 section.filters .locations h3 {
 	position: relative;
 	font-weight: 600;
-	left: 30px;
+	left: 50px;
 }
 section.filters .locations h4 {
 	position: relative;
 	font-weight: 400;
 	font-size: 14px;
-	left: 30px;
+	left: 50px;
 	bottom: 12px;
 }
 section.filters .amenities {
@@ -56,12 +56,12 @@ section.filters .amenities {
 section.filters .amenities h3 {
 	position: relative;
 	font-weight: 600;
-	left: 30px;
+	left: 50px;
 }
 section.filters .amenities h4 {
 	position: relative;
 	font-weight: 400;
 	font-size: 14px;
-	left: 30px;
+	left: 50px;
 	bottom: 12px;
 }
