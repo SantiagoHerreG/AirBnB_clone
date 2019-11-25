@@ -1,6 +1,5 @@
 header {
 	height: 70px;
-	position: fixed;
 	top: 0;
 	width: 100%;
 	right: 0;
@@ -12,4 +11,6 @@ header {
 	background: url("../images/logo.png") no-repeat;
 	background-position: 20px;
 	background-color: white;
+	margin: 0;
+	padding: 0;
 }

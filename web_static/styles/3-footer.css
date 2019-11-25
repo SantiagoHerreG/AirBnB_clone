@@ -1,18 +1,15 @@
 footer {
 	background: white;
-	height: 60px;
-	position: fixed;
+	position: absolute;
 	bottom: 0;
+	height: 60px;
 	width: 100%;
-	right: 0;
-	left: 0;
 	border-style: solid;
 	border-width: 0;
 	border-top-width: 1px;
 	border-top-color: #CCCCCC;
 }
-p {
-
+footer p {
 	text-align: center;
-	position: 50%, 50%;
+	vertical-align: middle;
 }
