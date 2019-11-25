@@ -1,7 +1,6 @@
 div section.filters {
 	position: absolute;
 	top: 0;
-	background: white;
 	height: 70px;
 	width: 100%;
 	border-style: solid;
@@ -91,6 +90,7 @@ div.locations ul.popover li {
 
 div.locations:hover ul.popover {
 	opacity: 1;
+	z-index:100;
 }
 div.amenities ul.popover li {
 	position: relative;
@@ -99,4 +99,5 @@ div.amenities ul.popover li {
 }
 div.amenities:hover ul.popover {
 	opacity: 1;
+	z-index:100;
 }
