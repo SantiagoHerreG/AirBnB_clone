@@ -1,6 +1,10 @@
+body footer {
+	position: fixed;
+}
 div section.filters {
-	position: absolute;
+	position: relative;
 	top: 0;
+	background: white;
 	height: 70px;
 	width: 100%;
 	border-style: solid;
@@ -16,9 +20,10 @@ section.filters button {
 	height: 48px;
 	width: 20%;
 	border-width: 0;
-	top: 11px;
-	right: 30px;
+	right: 10px;
+	margin: 10px;
 	border-radius: 4px;
+
 }
 section.filters button:hover {
 	opacity: .9;
@@ -68,6 +73,7 @@ ul {
 	list-style-type: none;
 }
 ul.popover {
+	display: none;
 	position: relative;
 	padding-left: 20px;
 	padding-bottom: 30px;
@@ -78,7 +84,6 @@ ul.popover {
 	border-width: 1px;
 	border-color: #DDDDDD;
 	border-radius: 4px;
-	opacity: 0;
 }
 ul.popover h2 {
 	font-size: 16px;
@@ -89,7 +94,7 @@ div.locations ul.popover li {
 }
 
 div.locations:hover ul.popover {
-	opacity: 1;
+	display: block;
 	z-index:100;
 }
 div.amenities ul.popover li {
@@ -98,6 +103,6 @@ div.amenities ul.popover li {
 	padding-top: 20px;
 }
 div.amenities:hover ul.popover {
-	opacity: 1;
+	display: block;
 	z-index:100;
 }

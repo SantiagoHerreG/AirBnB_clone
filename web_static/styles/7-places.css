@@ -1,15 +1,19 @@
+body footer {
+	position: fixed;
+}
+
 .places {
 	position: relative;
-	top: 30%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	padding: 90px 0;
 }
 .places h1 {
 	position: absolute;
 	font-size: 30px;
 	left: 20px;
-	top: -60px;
+	top: 20px;
 }
 .places article {
 	display: flex;
@@ -22,5 +26,10 @@
 	border-width: 1px;
 	border-color: #FF5A5F;
 	border-radius: 4px;
-	float: left;
+}
+.places article h2 {
+	font-size: 30px;
+	position: relative;
+	text-align: center;
+	top: -20px;
 }

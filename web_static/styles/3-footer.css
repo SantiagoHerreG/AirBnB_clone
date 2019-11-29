@@ -1,14 +1,23 @@
+body {
+	position: relative;
+}
+
 footer {
 	background: white;
 	position: absolute;
-	bottom: -90%;
+	bottom: 0;
 	height: 60px;
 	width: 100%;
+	text-align: center;
 	border-style: solid;
 	border-width: 0;
 	border-top-width: 1px;
 	border-top-color: #CCCCCC;
 }
 footer p {
-	text-align: center;
+	position: relative;
+	top: 22px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
 }
